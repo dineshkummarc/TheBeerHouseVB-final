@@ -1,0 +1,52 @@
+﻿<!-- 
+  Microsoft Visual Studio 2005 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkId=55111
+-->
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.60403</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F2840F2D-42A0-4B57-B879-ACA706CE546D}</ProjectGuid>
+    <SourceWebPhysicalPath>..\..\TBH_Web</SourceWebPhysicalPath>
+    <SourceWebProject>{FA1D6B58-C4AF-4859-B9E6-7EBA9CDC4CDA}|E:\Projects\Web\TheBeerHouseVB\TBH_Web</SourceWebProject>
+    <SourceWebVirtualPath>/TBH_Web</SourceWebVirtualPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>MB.TheBeerHouse</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <ValidateWebConfigReplacement>true</ValidateWebConfigReplacement>
+    <DeleteAppDataFolder>true</DeleteAppDataFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>TheBeerHouse_deploy</SingleAssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <WebConfigReplacementFiles Include="connectionStrings.LocalSql.config">
+      <Section>connectionStrings</Section>
+    </WebConfigReplacementFiles>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v8.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

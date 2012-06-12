@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CustomEvents.vbproj.GenerateResource.Cache
+bin\Debug\MB.TheBeerHouse.CustomEvents.dll
+bin\Debug\MB.TheBeerHouse.CustomEvents.pdb
+bin\Debug\MB.TheBeerHouse.xml
+obj\Debug\MB.TheBeerHouse.CustomEvents.dll
+obj\Debug\MB.TheBeerHouse.xml
+obj\Debug\MB.TheBeerHouse.CustomEvents.pdb
+obj\Debug\Resources.resources

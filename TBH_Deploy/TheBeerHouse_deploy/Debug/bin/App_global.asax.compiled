@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/TBH_Web/global.asax" hash="1940fb6c" filehash="806cbc0e06d" flags="150000" assembly="MB.TheBeerHouse" type="ASP.global_asax">
+  <filedeps>
+    <filedep name="/TBH_Web/global.asax" />
+  </filedeps>
+</preserve>
